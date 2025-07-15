@@ -1,0 +1,79 @@
+/* Header section */
+#section_1 {
+    height: auto;
+    max-width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+#secion_2{
+    height: 70px;
+    max-width: 90%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+#title{
+    height: 140px;
+    width: 80%;
+    text-align: center;
+    background-color: rgb(230, 233, 237);
+    border-radius: 8px;
+}
+#img_1,#img_2{
+    height: 110px;
+    width: 110px;
+    border-radius: 8px;
+}
+/* Header section  closed*/
+
+
+
+
+/* Navigation Bar  */
+#section_2{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    gap: 10px; /* Space between buttons */
+    flex-wrap: wrap; /* Allows wrapping on small screens */
+    margin-top: 20px;
+    background-color: rgb(82, 82, 82);
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 8px;
+}
+#navbutt {
+    display: block;
+    padding: 12px 16px;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 300;
+    width: auto;
+    transition: background-color 0.2s;
+}
+#navbutt:hover {
+    background-color: #97a3b1;
+    border-top:4px solid #98CD00;
+}
+
+#navbuttlink1{
+    color: white;
+    text-decoration: none;
+}
+/* Navigation Bar ended  */
+
+
+
